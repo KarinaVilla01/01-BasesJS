@@ -1,12 +1,9 @@
+const arreglo = [1,2,3,4]
+arreglo.push(5)
 
+const arreglo2 = [...arreglo]
 
+arreglo2.push(6)
 
-
-
-
-console.log('Hola Mundo!!')
-
-
-
-
-
+console.log(arreglo)
+console.log(arreglo2)
